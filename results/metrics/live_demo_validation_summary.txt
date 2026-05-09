@@ -1,0 +1,8 @@
+            Sector  Latency (s)  Max Latency (s)  Accuracy (%)  Min Accuracy (%)  Throughput (tok/s)  Min Throughput (tok/s)  Energy (W)  Max Energy (W) Checks Passed Deployment Ready
+        Healthcare    12.077771               15         30.67                30            2.483902                       2         1.8             2.5           4/4              YES
+         Education     6.483626               15         30.67                30            4.627040                       2         1.8             3.0           4/4              YES
+      Smart Cities     5.043788               10         30.67                30            5.947910                       3         1.8             2.0           4/4              YES
+       Agriculture     3.985081               10         30.67                30            7.528078                       2         1.8             1.5           3/4               NO
+Telecommunications     3.712083               10         30.67                30            8.081717                       3         1.8             2.0           4/4              YES
+
+Overall Validation: 19/20

@@ -1,0 +1,6 @@
+Sector,Latency (s),Max Latency (s),Accuracy (%),Min Accuracy (%),Throughput (tok/s),Min Throughput (tok/s),Energy (W),Max Energy (W),Checks Passed,Deployment Ready
+Healthcare,12.077770948410034,15,30.67,30,2.483902048494248,2,1.8,2.5,4/4,YES
+Education,6.483626127243042,15,30.67,30,4.627040395488775,2,1.8,3.0,4/4,YES
+Smart Cities,5.043788433074951,10,30.67,30,5.947910067613694,3,1.8,2.0,4/4,YES
+Agriculture,3.9850809574127197,10,30.67,30,7.528077928805052,2,1.8,1.5,3/4,NO
+Telecommunications,3.712082624435425,10,30.67,30,8.081716662910416,3,1.8,2.0,4/4,YES

@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-05-03T11:12:08.868661Z",
+  "stage": "stage4_quantization",
+  "model_dir": "E:\\Wahaq\\models\\quantized_distilgpt2",
+  "checkpoint_dir": "E:\\Wahaq\\results\\checkpoints",
+  "stage4_results": {
+    "stage": "stage4_quantization",
+    "bits": 4,
+    "compression_ratio": 8.0,
+    "total_parameters": 81912576,
+    "quantized_parameters": 81912576,
+    "average_benchmark_accuracy": 0.3066666666666667,
+    "mmlu_accuracy": 0.32,
+    "accuracy_delta_vs_baseline": -0.06666666666666665,
+    "timestamp": "2026-05-03T16:07:36.148231"
+  },
+  "quant_stats": {
+    "total_parameters": 81912576,
+    "quantized_parameters": 81912576,
+    "compression_ratio": 8.0,
+    "bits": 4
+  },
+  "quant_benchmark_results": {
+    "mmlu": {
+      "benchmark": "MMLU",
+      "accuracy": 0.32,
+      "num_samples": 50,
+      "num_questions": 14042
+    },
+    "hellaswag": {
+      "benchmark": "HellaSwag",
+      "accuracy": 0.22,
+      "num_samples": 50
+    },
+    "truthfulqa": {
+      "benchmark": "TruthfulQA",
+      "accuracy": 0.38,
+      "num_samples": 50
+    },
+    "average": {
+      "accuracy": 0.3066666666666667,
+      "num_benchmarks": 3
+    }
+  }
+}

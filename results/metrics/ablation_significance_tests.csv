@@ -1,0 +1,4 @@
+Benchmark,Baseline Acc (%),Quantized Acc (%),Delta (pp),Baseline 95% CI (%),Quantized 95% CI (%),z-stat,p-value,Significant (p<0.05),Baseline Correct,Quantized Correct,Samples per model
+MMLU,28.000000000000004,32.0,3.9999999999999982,17.5–41.7,20.8–45.8,-0.43643578047198456,0.6625205835400576,False,14,16,50
+HellaSwag,34.0,22.0,-12.000000000000002,22.4–47.8,12.8–35.2,1.336306209562122,0.18144920772142026,False,17,11,50
+TruthfulQA,50.0,38.0,-12.0,36.6–63.4,25.9–51.8,1.2087344460380702,0.2267648835248377,False,25,19,50

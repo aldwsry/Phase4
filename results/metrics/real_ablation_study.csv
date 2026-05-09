@@ -1,0 +1,6 @@
+Stage,Real Metric,Accuracy (%),Model Size (GB),Latency (s),Energy (W),Throughput (tok/s),Notes,Accuracy Delta vs Baseline (pp),Size Reduction vs Baseline (%)
+Baseline (FP16),Avg accuracy = 37.33%,37.333333333333336,0.311007522046566,2.4137043952941895,4.2,8.28601880122207,Measured baseline evaluation on real benchmarks,0.0,0.0
+NAS,Best fitness = 1.1840,,,,,,"Depth=0.80, Width=0.80, Heads=0.58",,
+Pruning,Actual sparsity = 0.00%,,,,,,"Target sparsity=30%, zero params=0",,
+Distillation,Final loss = 0.052443,,,,,,"Epochs=1, temperature=3.0",,
+Quantization,Avg accuracy = 30.67%,30.66666666666667,0.03887594025582075,2.065816640853882,1.8,9.68140134244113,Compression ratio = 8.0x,-6.666666666666664,87.5
